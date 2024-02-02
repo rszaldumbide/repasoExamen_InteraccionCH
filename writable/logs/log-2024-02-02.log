@@ -1,0 +1,308 @@
+CRITICAL - 2024-02-02 03:28:43 --> ErrorException: Undefined array key "prod_id"
+in APPPATH\Views\welcome_message.php on line 35.
+ 1 APPPATH\Views\welcome_message.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "prod_id"', 'C:\\xampp\\htdocs\\repaso\\app\\Views\\welcome_message.php', 35)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\repaso\\app\\Views\\welcome_message.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH\Controllers\Home.php(21): view('welcome_message', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 03:29:05 --> ErrorException: Undefined array key "prod_id"
+in APPPATH\Views\welcome_message.php on line 35.
+ 1 APPPATH\Views\welcome_message.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "prod_id"', 'C:\\xampp\\htdocs\\repaso\\app\\Views\\welcome_message.php', 35)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\repaso\\app\\Views\\welcome_message.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH\Controllers\Home.php(21): view('welcome_message', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 03:29:14 --> ErrorException: Undefined array key "prod_id"
+in APPPATH\Views\welcome_message.php on line 35.
+ 1 APPPATH\Views\welcome_message.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "prod_id"', 'C:\\xampp\\htdocs\\repaso\\app\\Views\\welcome_message.php', 35)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\repaso\\app\\Views\\welcome_message.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH\Controllers\Home.php(21): view('welcome_message', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 03:29:35 --> ErrorException: Undefined array key "prod_id"
+in APPPATH\Views\welcome_message.php on line 35.
+ 1 APPPATH\Views\welcome_message.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "prod_id"', 'C:\\xampp\\htdocs\\repaso\\app\\Views\\welcome_message.php', 35)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\repaso\\app\\Views\\welcome_message.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH\Controllers\Home.php(21): view('welcome_message', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 03:30:36 --> ErrorException: Undefined array key "prod_id"
+in APPPATH\Views\welcome_message.php on line 35.
+ 1 APPPATH\Views\welcome_message.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "prod_id"', 'C:\\xampp\\htdocs\\repaso\\app\\Views\\welcome_message.php', 35)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\repaso\\app\\Views\\welcome_message.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH\Controllers\Home.php(21): view('welcome_message', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 03:31:37 --> ErrorException: Undefined array key "prod_id"
+in APPPATH\Views\welcome_message.php on line 35.
+ 1 APPPATH\Views\welcome_message.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "prod_id"', 'C:\\xampp\\htdocs\\repaso\\app\\Views\\welcome_message.php', 35)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\repaso\\app\\Views\\welcome_message.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH\Controllers\Home.php(21): view('welcome_message', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 03:33:47 --> ErrorException: Undefined array key "prod_id"
+in APPPATH\Views\welcome_message.php on line 36.
+ 1 APPPATH\Views\welcome_message.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "prod_id"', 'C:\\xampp\\htdocs\\repaso\\app\\Views\\welcome_message.php', 36)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\repaso\\app\\Views\\welcome_message.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH\Controllers\Home.php(21): view('welcome_message', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 03:38:02 --> ErrorException: Undefined array key "Prod_id"
+in APPPATH\Views\welcome_message.php on line 36.
+ 1 APPPATH\Views\welcome_message.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Prod_id"', 'C:\\xampp\\htdocs\\repaso\\app\\Views\\welcome_message.php', 36)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\repaso\\app\\Views\\welcome_message.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH\Controllers\Home.php(21): view('welcome_message', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 03:38:12 --> ErrorException: Undefined array key "prod_id"
+in APPPATH\Views\welcome_message.php on line 36.
+ 1 APPPATH\Views\welcome_message.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "prod_id"', 'C:\\xampp\\htdocs\\repaso\\app\\Views\\welcome_message.php', 36)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\repaso\\app\\Views\\welcome_message.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH\Controllers\Home.php(21): view('welcome_message', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 04:20:37 --> ErrorException: Undefined variable $producto
+in APPPATH\Views\editar.php on line 22.
+ 1 APPPATH\Views\editar.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $producto', 'C:\\xampp\\htdocs\\repaso\\app\\Views\\editar.php', 22)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\repaso\\app\\Views\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('editar', [], true)
+ 5 APPPATH\Controllers\Home.php(36): view('editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 04:21:11 --> ErrorException: Undefined array key "PROV_NOMBRE"
+in APPPATH\Views\editar.php on line 22.
+ 1 APPPATH\Views\editar.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "PROV_NOMBRE"', 'C:\\xampp\\htdocs\\repaso\\app\\Views\\editar.php', 22)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\repaso\\app\\Views\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('editar', [], true)
+ 5 APPPATH\Controllers\Home.php(36): view('editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 04:22:11 --> ErrorException: Undefined array key "PROV_NOMBRE"
+in APPPATH\Views\editar.php on line 22.
+ 1 APPPATH\Views\editar.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "PROV_NOMBRE"', 'C:\\xampp\\htdocs\\repaso\\app\\Views\\editar.php', 22)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\repaso\\app\\Views\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('editar', [], true)
+ 5 APPPATH\Controllers\Home.php(36): view('editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 04:25:14 --> ErrorException: Undefined array key "PROV_NOMBRE"
+in APPPATH\Views\editar.php on line 22.
+ 1 APPPATH\Views\editar.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "PROV_NOMBRE"', 'C:\\xampp\\htdocs\\repaso\\app\\Views\\editar.php', 22)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\repaso\\app\\Views\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('editar', [], true)
+ 5 APPPATH\Controllers\Home.php(36): view('editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 04:25:16 --> ErrorException: Undefined array key "PROV_NOMBRE"
+in APPPATH\Views\editar.php on line 22.
+ 1 APPPATH\Views\editar.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "PROV_NOMBRE"', 'C:\\xampp\\htdocs\\repaso\\app\\Views\\editar.php', 22)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\repaso\\app\\Views\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('editar', [], true)
+ 5 APPPATH\Controllers\Home.php(36): view('editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 04:25:42 --> ErrorException: Undefined array key "PROD_ID"
+in APPPATH\Views\editar.php on line 22.
+ 1 APPPATH\Views\editar.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "PROD_ID"', 'C:\\xampp\\htdocs\\repaso\\app\\Views\\editar.php', 22)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\repaso\\app\\Views\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('editar', [], true)
+ 5 APPPATH\Controllers\Home.php(36): view('editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 04:25:54 --> ErrorException: Undefined array key "PROD_ID"
+in APPPATH\Views\editar.php on line 22.
+ 1 APPPATH\Views\editar.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "PROD_ID"', 'C:\\xampp\\htdocs\\repaso\\app\\Views\\editar.php', 22)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\repaso\\app\\Views\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('editar', [], true)
+ 5 APPPATH\Controllers\Home.php(36): view('editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 04:25:59 --> ErrorException: Undefined array key "PROV_NOMBRE"
+in APPPATH\Views\editar.php on line 22.
+ 1 APPPATH\Views\editar.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "PROV_NOMBRE"', 'C:\\xampp\\htdocs\\repaso\\app\\Views\\editar.php', 22)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\repaso\\app\\Views\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('editar', [], true)
+ 5 APPPATH\Controllers\Home.php(36): view('editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 04:57:23 --> ErrorException: Undefined variable $prod
+in APPPATH\Views\editar.php on line 60.
+ 1 APPPATH\Views\editar.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $prod', 'C:\\xampp\\htdocs\\repaso\\app\\Views\\editar.php', 60)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\repaso\\app\\Views\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('editar', [], true)
+ 5 APPPATH\Controllers\Home.php(33): view('editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->editar('2')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-02 05:51:54 --> mysqli_sql_exception: Unknown column 'Lactios' in 'field list' in C:\xampp\htdocs\repaso\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\repaso\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `tbl_pro...', 0)
+#1 C:\xampp\htdocs\repaso\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_pro...')
+#2 C:\xampp\htdocs\repaso\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_pro...')
+#3 C:\xampp\htdocs\repaso\system\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_pro...', Array, false)
+#4 C:\xampp\htdocs\repaso\app\Models\modeloProductos.php(41): CodeIgniter\Database\BaseBuilder->update('Lactios ')
+#5 C:\xampp\htdocs\repaso\app\Controllers\Home.php(42): App\Models\modeloProductos->actualizar('2', 'Lactios ')
+#6 C:\xampp\htdocs\repaso\system\CodeIgniter.php(941): App\Controllers\Home->actualizar('2')
+#7 C:\xampp\htdocs\repaso\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\repaso\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\repaso\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-02-02 05:51:54 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'Lactios' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_productos` `pd` SET `Lactios` = :Lactios :
+WHERE `pd`.`prod_id` = :pd.prod_id:', [...], false)
+ 2 APPPATH\Models\modeloProductos.php(41): CodeIgniter\Database\BaseBuilder->update('Lactios ')
+ 3 APPPATH\Controllers\Home.php(42): App\Models\modeloProductos->actualizar('2', 'Lactios ')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->actualizar('2')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 05:51:54 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'Lactios' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_productos` `pd` SET `Lactios` = \'\'
+WHERE `pd`.`prod_id` = \'2\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_productos` `pd` SET `Lactios` = \'\'
+WHERE `pd`.`prod_id` = \'2\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_productos` `pd` SET `Lactios` = :Lactios :
+WHERE `pd`.`prod_id` = :pd.prod_id:', [...], false)
+ 4 APPPATH\Models\modeloProductos.php(41): CodeIgniter\Database\BaseBuilder->update('Lactios ')
+ 5 APPPATH\Controllers\Home.php(42): App\Models\modeloProductos->actualizar('2', 'Lactios ')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->actualizar('2')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 05:51:54 --> [Caused by] mysqli_sql_exception: Unknown column 'Lactios' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `tbl_productos` `pd` SET `Lactios` = \'\'
+WHERE `pd`.`prod_id` = \'2\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_productos` `pd` SET `Lactios` = \'\'
+WHERE `pd`.`prod_id` = \'2\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_productos` `pd` SET `Lactios` = \'\'
+WHERE `pd`.`prod_id` = \'2\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_productos` `pd` SET `Lactios` = :Lactios :
+WHERE `pd`.`prod_id` = :pd.prod_id:', [...], false)
+ 5 APPPATH\Models\modeloProductos.php(41): CodeIgniter\Database\BaseBuilder->update('Lactios ')
+ 6 APPPATH\Controllers\Home.php(42): App\Models\modeloProductos->actualizar('2', 'Lactios ')
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->actualizar('2')
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-02 05:52:20 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '3 = :3:
+WHERE `pd`.`prod_id` = '1'' at line 1 in C:\xampp\htdocs\repaso\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\repaso\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `tbl_pro...', 0)
+#1 C:\xampp\htdocs\repaso\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_pro...')
+#2 C:\xampp\htdocs\repaso\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_pro...')
+#3 C:\xampp\htdocs\repaso\system\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_pro...', Array, false)
+#4 C:\xampp\htdocs\repaso\app\Models\modeloProductos.php(41): CodeIgniter\Database\BaseBuilder->update('3')
+#5 C:\xampp\htdocs\repaso\app\Controllers\Home.php(42): App\Models\modeloProductos->actualizar('1', '3')
+#6 C:\xampp\htdocs\repaso\system\CodeIgniter.php(941): App\Controllers\Home->actualizar('1')
+#7 C:\xampp\htdocs\repaso\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\repaso\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\repaso\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-02-02 05:52:20 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '3 = :3:
+WHERE `pd`.`prod_id` = '1'' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_productos` `pd` SET 3 = :3:
+WHERE `pd`.`prod_id` = :pd.prod_id:', [...], false)
+ 2 APPPATH\Models\modeloProductos.php(41): CodeIgniter\Database\BaseBuilder->update('3')
+ 3 APPPATH\Controllers\Home.php(42): App\Models\modeloProductos->actualizar('1', '3')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->actualizar('1')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 05:52:20 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '3 = :3:
+WHERE `pd`.`prod_id` = '1'' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_productos` `pd` SET 3 = :3:
+WHERE `pd`.`prod_id` = \'1\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_productos` `pd` SET 3 = :3:
+WHERE `pd`.`prod_id` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_productos` `pd` SET 3 = :3:
+WHERE `pd`.`prod_id` = :pd.prod_id:', [...], false)
+ 4 APPPATH\Models\modeloProductos.php(41): CodeIgniter\Database\BaseBuilder->update('3')
+ 5 APPPATH\Controllers\Home.php(42): App\Models\modeloProductos->actualizar('1', '3')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->actualizar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-02 05:52:20 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '3 = :3:
+WHERE `pd`.`prod_id` = '1'' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `tbl_productos` `pd` SET 3 = :3:
+WHERE `pd`.`prod_id` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_productos` `pd` SET 3 = :3:
+WHERE `pd`.`prod_id` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_productos` `pd` SET 3 = :3:
+WHERE `pd`.`prod_id` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_productos` `pd` SET 3 = :3:
+WHERE `pd`.`prod_id` = :pd.prod_id:', [...], false)
+ 5 APPPATH\Models\modeloProductos.php(41): CodeIgniter\Database\BaseBuilder->update('3')
+ 6 APPPATH\Controllers\Home.php(42): App\Models\modeloProductos->actualizar('1', '3')
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->actualizar('1')
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
