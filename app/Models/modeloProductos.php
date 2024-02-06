@@ -7,38 +7,23 @@ use CodeIgniter\Model;
 class modeloProductos extends Model
 {
 
-    public function listarDatos()
+    public function listarTodo()
     {
-
-        $sentencia = $this->db->table('tbl_productos pd');
-        $sentencia->select('*');
-        $sentencia->join('tbl_categorias cat', 'cat.cat_id=pd.cat_id');
-        $sentencia->join('tbl_proveedor pv', 'pv.prov_id=pd.prov_id');
-        $sentencia->orderBy('cat.cat_nombre', 'ASC');
-        $valor = $sentencia->get();
+        $query = $this->db->table('tbl_productos pd');
+        $query->select('*');
+        $query->join('tbl_proveedor p', 'p.prov_id=pd.prov_id');
+        $query->join('tbl_categorias c', 'c.cat_id=pd.cat_id');
+        $query->orderBy('pd.prod_nombre', 'ASC');
+        $valor = $query->get();
         $respuesta = $valor->getResultArray();
 
         return $respuesta;
     }
 
-    public function listarxID($id)
-    {
-        $sentencia = $this->db->table('tbl_productos pd');
-        $sentencia->select('*');
-        $sentencia->join('tbl_categorias cat', 'cat.cat_id=pd.cat_id');
-        $sentencia->join('tbl_proveedor pv', 'pv.prov_id=pd.prov_id');
-        $sentencia->where('pd.prod_id', $id);
-
-        $valor = $sentencia->get();
-        $respuesta = $valor->getResultArray();
-
-        return $respuesta;
-    }
-
-    public function actualizar($id, $valor)
-    {
-        $sentencia = $this->db->table('tbl_productos pd');
-        $sentencia->where('pd.prod_id', $id);
-        $sentencia->update(['PROV_ID' => $valor]);
+    public function actualizar($proveedor, $id){
+        $query = $this->db->table('tbl_productos pd');
+        $query->set('pd.prov_id', $proveedor);
+        $query->where('pd.prod_id', $id);
+        $query->update();
     }
 }

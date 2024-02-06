@@ -4,48 +4,38 @@ namespace App\Controllers;
 
 use App\Models\modeloProductos;
 
-
 class Home extends BaseController
 {
     public function index(): string
     {
         $objProductos = new modeloProductos();
-        $respuesta = $objProductos->listarDatos();
 
-        $datos = [
-            'productos' => $respuesta
+        $productosResp = $objProductos->listarTodo();
+
+        $data = [
+
+            'productos' => $productosResp,
         ];
 
-        return view('productos', $datos);
+        return view('index', $data);
     }
 
-    public function editar($id)
+    public function actualizar()
     {
-        $objProductos = new modeloProductos();
-        $respuesta2 = $objProductos->listarxID($id);
 
-        $datos = [
-            'producto' => $respuesta2[0]
-
-        ];
-
-        return view('editar', $datos);
-    }
-
-    public function actualizar($id)
-    {
         $objProductos = new modeloProductos();
 
-        $nuevoValor = $this->request->getPost('nombre_proveedor');
+        $nombreNuevo = $_POST['editProv'];
+        $id = $_POST['ediID'];
 
-        $objProductos->actualizar($id, $nuevoValor);
+        $objProductos->actualizar($nombreNuevo, $id);
 
-        $respuesta = $objProductos->listarDatos();
+        $productosResp = $objProductos->listarTodo();
 
-        $datos = [
-            'productos' => $respuesta
+        $data = [
+            'productos' => $productosResp,
         ];
 
-        return view('productos', $datos);
+        return view('index', $data);
     }
 }
