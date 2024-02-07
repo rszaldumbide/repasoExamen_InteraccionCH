@@ -9,33 +9,48 @@ class Home extends BaseController
     public function index(): string
     {
         $objProductos = new modeloProductos();
-
-        $productosResp = $objProductos->listarTodo();
+        $productos = $objProductos->listarProductos();
 
         $data = [
-
-            'productos' => $productosResp,
+            'productos' => $productos,
         ];
 
-        return view('index', $data);
+        return view('productos', $data);
+    }
+
+    public function agregar()
+    {
+        $objProductos = new modeloProductos();
+
+        $agregarDatos = [
+
+            'PROV_ID' => $_POST['provedorADD'],
+            'CAT_ID' => $_POST['categoriaADD'],
+            'PROD_NOMBRE' => $_POST['productoADD'],
+        ];
+
+        $objProductos->agregarProductos($agregarDatos);
+
+        return redirect()->to(base_url('/'));
     }
 
     public function actualizar()
     {
-
         $objProductos = new modeloProductos();
 
-        $nombreNuevo = $_POST['editProv'];
-        $id = $_POST['ediID'];
+        $valor = $_POST['provNombre'];
+        $id = $_POST['idProducto'];
 
-        $objProductos->actualizar($nombreNuevo, $id);
+        $objProductos->actualizarProveedor($id, $valor);
 
-        $productosResp = $objProductos->listarTodo();
+        return redirect()->to(base_url('/'));
+    }
 
-        $data = [
-            'productos' => $productosResp,
-        ];
+    public function eliminar($id)
+    {
+        $objProductos = new modeloProductos();
+        $objProductos->eliminarProducto($id);
 
-        return view('index', $data);
+        return redirect()->to(base_url('/'));
     }
 }

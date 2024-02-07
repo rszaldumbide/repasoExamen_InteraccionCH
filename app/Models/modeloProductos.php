@@ -7,23 +7,35 @@ use CodeIgniter\Model;
 class modeloProductos extends Model
 {
 
-    public function listarTodo()
+    public function listarProductos()
     {
         $query = $this->db->table('tbl_productos pd');
         $query->select('*');
-        $query->join('tbl_proveedor p', 'p.prov_id=pd.prov_id');
         $query->join('tbl_categorias c', 'c.cat_id=pd.cat_id');
-        $query->orderBy('pd.prod_nombre', 'ASC');
+        $query->join('tbl_proveedor p', 'p.prov_id=pd.prov_id');
         $valor = $query->get();
         $respuesta = $valor->getResultArray();
 
         return $respuesta;
     }
 
-    public function actualizar($proveedor, $id){
-        $query = $this->db->table('tbl_productos pd');
-        $query->set('pd.prov_id', $proveedor);
-        $query->where('pd.prod_id', $id);
+    public function agregarProductos($datos){
+        $query = $this->db->table('tbl_productos');
+        $query->insert($datos);
+    }
+
+    public function actualizarProveedor($id, $datos)
+    {
+        $query = $this->db->table('tbl_productos');
+        $query->set('prov_id', $datos);
+        $query->where('prod_id', $id);
         $query->update();
+    }
+
+    public function eliminarProducto($id)
+    {
+        $query = $this->db->table('tbl_productos');
+        $query->where('prod_id', $id);
+        $query->delete();
     }
 }
